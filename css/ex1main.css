@@ -8,4 +8,8 @@ body {
     background-color: rgb(46, 150, 141);
 }
 
-
+.card-main {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minman(300px , 1fr));
+}
