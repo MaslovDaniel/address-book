@@ -25,3 +25,30 @@ body {
     border: 1px solid black;
     margin-top: 2vh;
 }
+
+h1 {
+    background-color: bisque;
+    margin-bottom: 1vh;
+    padding: 0.2em;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+img {
+    max-height: 20vh;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+span {
+    font-weight: 700;
+}
