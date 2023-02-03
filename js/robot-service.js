@@ -1,9 +1,9 @@
 'use strict'
 
-// 'http://www.filltext.com/?rows=10&fname={firstName}&lname={lastName}&tel={phone|format}&address={streetAddress}&city={city}&state={usState|abbr}&zip={zip}&pretty=true' 
+//  const API = 'http://www.filltext.com/?rows=10&fname={firstName}&lname={lastName}&tel={phone|format}&address={streetAddress}&city={city}&state={usState|abbr}&zip={zip}&pretty=true' 
 
 const API = 'http://filltext.com/?rows=6&fullname={firstName}~{lastName}&phone={phone}&city={city}&state={usState|abbr}&zip={zip}&address={streetAddress}'
-function getAns(cb) {
+function getRobots(cb) {
     const xhr = new XMLHttpRequest()
     console.log(xhr)
 
@@ -17,7 +17,7 @@ function getAns(cb) {
 
     xhr.open('GET', API)
     xhr.send()
- 
+
 
 }
 

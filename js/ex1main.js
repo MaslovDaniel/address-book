@@ -4,9 +4,14 @@ function onInit() {
     getRobots(renderRobots)
 }
 
-function renderRobot(ans) {
+function renderRobots(robots) {
 
-    document.querySelector('.card-main').innerText = ans.answer
+  const strHtml = robots.map(bot =>`
+    <div class="card">
+        <h1>${bot.fullname}</h1>
+    </div>`
+).join('')
+document.querySelector('.cards-main').innerHTML = strHtml
 
 
 }

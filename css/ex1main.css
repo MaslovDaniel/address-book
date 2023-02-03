@@ -8,8 +8,20 @@ body {
     background-color: rgb(46, 150, 141);
 }
 
-.card-main {
-    background-color: lightblue;
-    display: grid;
-    grid-template-columns: repeat(auto-fill , minman(300px , 1fr));
+.cards-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 30vh;
+    background-color: lightcyan;
+    border: 1px solid black;
+    margin-top: 2vh;
 }
